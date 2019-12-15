@@ -1,0 +1,124 @@
+.header {
+
+   
+   
+    align-items: center;
+    background: #ff742b;
+    height: auto;
+    padding: 4px;
+    position: relative;
+ 
+  }
+
+.header_logo{
+    
+}
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }  
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+  
+    pointer-events: none;
+    color: #aaa;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    display: inline-flex;
+    text-align: left;
+}
+.form-group {
+    margin-bottom: 0rem;
+}
+.form-control {
+    
+    width: 175%;
+    height: calc(1.5em + 0.75rem + 0px)
+}
+
+/* .filter-bar {
+    display: flex;
+    left: 0;
+  
+} */
+.filter-bar-span {
+    display: inline-flex;
+    width:20%;
+}
+select#inputState {
+    width: 150px;
+}
+.filter-bar {
+    display: flex;
+   
+    background: #F6F6E6;
+    padding: 1%;
+}
+.content-box {
+    background: #F6F6E6;
+    margin-bottom: 2%;
+}
+article.article-box {
+    margin-left: 2% !important;
+    margin-bottom: 0.5%;
+}
+.article-span{
+    color: #828282;
+    font-size: 13px;
+    word-break: break-all;
+}
+.article-box-2 {
+    color: #696969;
+    cursor: pointer;
+    font-size: 10.6667px;
+
+    font-family: Verdana,Geneva,sans-serif;
+}
+.article-link{
+    color: #696969;
+}
+.article-link:hover{
+    color: #696969;
+}
+.article-cmnt{
+
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+    line-height: normal;
+    font-style: normal;
+    font-feature-settings: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+  
+    text-align: left;
+}
+
+.footer{
+    width:100%;
+    bottom: 0em;
+    height:30px;
+    position: relative;
+}
